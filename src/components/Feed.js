@@ -7,7 +7,7 @@ export class Feed extends React.Component {
 
   render() {
     return (
-      <div className={feed}>
+      <div className={/feed/}>FEEEEEEEEEEEEEEEEEED
         <Milestone />
       </div>
     );

@@ -7,11 +7,13 @@ const initialState = {
 
 const yggdrasilReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ACTIONS.1:
+    case ACTIONS.ONE:
       return {...state, };
-    case ACTIONS.2:
+    case ACTIONS.TWO:
       return {...state, };
     default:
       return state;
   };
 };
+
+export default yggdrasilReducer;

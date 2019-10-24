@@ -5,7 +5,7 @@ export class Child extends React.Component {
 
   render() {
     return (
-      <div className={child}>
+      <div className={/child/}>CHILD
       </div>
     );
   };

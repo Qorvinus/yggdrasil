@@ -4,7 +4,7 @@ export class Milestone extends React.Component {
 
   render() {
     return (
-      <div className={milestone}>
+      <div className={/milestone/}>MILESTONE
       </div>
     );
   };

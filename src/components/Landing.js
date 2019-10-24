@@ -6,20 +6,16 @@ export class Landing extends Component {
 
   render() {
     return (
-      <div className={landing}>
-        <section className={hero-section}>HERO
+      <div className={/landing/}>
+        <section className={/hero-section/}>HERO
         </section>
-        <section className={how-to-section}>HOW TO
+        <section className={/how-to-section/}>HOW TO
         </section>
-        <section className={demo-section}>DEMO
+        <section className={/demo-section/}>DEMO
         </section>
       </div>
     );
   };
 };
 
-const mapStateToProps = {
-
-};
-
-export default connect(mapStateToProps)(Landing);
+export default connect()(Landing);

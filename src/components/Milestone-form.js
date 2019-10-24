@@ -9,7 +9,7 @@ export class MilestoneForm extends React.Component {
 
   render() {
     return (
-      <div className={milestone-form}>
+      <div className={/milestone-form/}>MILESTONE FORM
         <form>
           <input type="text" />
           <input type="file" />

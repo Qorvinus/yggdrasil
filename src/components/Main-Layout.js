@@ -17,7 +17,7 @@ export class MainLayout extends React.Component {
 
   render() {
     return (
-      <div className={main-layout}>
+      <div className={/main-layout/}>
         <Nav />
           <main>
             <Switch>
@@ -35,8 +35,6 @@ export class MainLayout extends React.Component {
   };
 };
 
-const mapStateToProps = state => {
 
-};
 
-export default connect(mapStateToProps)(MainLayout);
+export default connect()(MainLayout);

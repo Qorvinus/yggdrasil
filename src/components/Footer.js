@@ -1,12 +1,10 @@
 import React from 'react';
 
 export function Footer() {
-  render() {
     return (
-      <div className={footer}>
+      <div className={/footer/}>FOOTER
       </div>
     );
-  };
 };
 
 export default Footer;

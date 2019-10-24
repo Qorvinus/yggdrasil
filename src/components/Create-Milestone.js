@@ -8,7 +8,7 @@ export class CreatMilestone extends React.Component {
 
   render() {
     return (
-      <div className={create-milestone}>
+      <div className={/create-milestone/}>Create MILESTONE
         <MilestoneForm />
       </div>
     );

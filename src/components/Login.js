@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 
-export class Login extends React.Componet {
+export class Login extends React.Component {
 
   handleSubmit() {
 
@@ -10,7 +10,7 @@ export class Login extends React.Componet {
 
   render() {
     return (
-      <div className={login-page}>
+      <div className={/login-page/}>
         <form>
           <input type="text" />
           <input type="password" />
@@ -21,4 +21,4 @@ export class Login extends React.Componet {
   };
 };
 
-export connect(Login);
+export default connect(Login);

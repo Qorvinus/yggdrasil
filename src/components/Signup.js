@@ -10,7 +10,7 @@ export class SignUp extends React.Component {
 
   render() {
     return (
-      <div className={signup-page}>
+      <div className={/signup-page/}>
         <form>]
           <input type="text" />
           <input type="text" />
