@@ -7,11 +7,11 @@ export class Landing extends Component {
   render() {
     return (
       <div className={landing}>
-        <section className={hero-section}>
+        <section className={hero-section}>HERO
         </section>
-        <section className={how-to-section}>
+        <section className={how-to-section}>HOW TO
         </section>
-        <section className={demo-section}>
+        <section className={demo-section}>DEMO
         </section>
       </div>
     );

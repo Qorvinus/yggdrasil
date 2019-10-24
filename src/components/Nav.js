@@ -1,10 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { Route, Link, Switch } from 'react-router-dom';
+import styles from '../css_modules/nav.module.css';
 
 export class Nav extends React.Component {
 
   render() {
     <div className={nav}>
+      <header className={styles.header}>
+        <div>
+          Navigation
+        </div>
+      </header>
     </div>
   };
 };

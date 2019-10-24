@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Nav from './Nav';
@@ -19,13 +19,17 @@ export class MainLayout extends React.Component {
     return (
       <div className={main-layout}>
         <Nav />
-        <Landing />
-        <Login />
-        <SignUp />
-        <ChildrenSection />
-        <CreatMilestone />
-        <Feed />
-        <Footer />
+          <main>
+            <Switch>
+              <Route path="/" component={Landing} />
+              <Route path="/login" component={Login} />
+              <Route path="/signup" component={SignUp} />
+            </Switch>
+              <Route path="/main/child" component={ChildrenSection} />
+              <Route path="/main/milestone" component={CreatMilestone} />
+              <Route path="/main/feed" component={Feed} />
+          </main>
+          <Footer />
       </div>
     );
   };
